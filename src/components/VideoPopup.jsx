@@ -40,9 +40,9 @@ export default function VideoPopup() {
       {/* Video Popup Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6 md:p-8 lg:p-10 animate-fadeIn">
-          {/* Dark Backdrop Overlay */}
+          {/* Translucent Backdrop Overlay */}
           <div 
-            className="fixed inset-0 bg-black/90 backdrop-blur-lg transition-opacity"
+            className="fixed inset-0 bg-black/45 backdrop-blur-sm transition-opacity"
             onClick={handleCloseAttempt}
           />
 
