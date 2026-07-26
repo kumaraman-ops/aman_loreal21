@@ -6,7 +6,6 @@ import Chapter02Journey from './components/Chapter02Journey';
 import Chapter03Passions from './components/Chapter03Passions';
 import Chapter04BeautyEverywhere from './components/Chapter04BeautyEverywhere';
 import Chapter05MorningRoutine from './components/Chapter05MorningRoutine';
-import Chapter04BeautyEdge from './components/Chapter04BeautyEdge';
 import ContactFooter from './components/ContactFooter';
 
 function App() {
@@ -53,7 +52,6 @@ function App() {
         <Chapter03Passions />
         <Chapter04BeautyEverywhere />
         <Chapter05MorningRoutine />
-        <Chapter04BeautyEdge />
       </main>
 
       {/* Contact & Editorial Footer */}

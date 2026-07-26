@@ -24,7 +24,6 @@ export default function Header({ activeSection }) {
     { id: 'chapter-02', label: 'Journey' },
     { id: 'chapter-04', label: 'Passions' },
     { id: 'chapter-04-beauty', label: 'Beauty' },
-    { id: 'chapter-05', label: 'Edge' },
     { id: 'contact', label: 'Contact' },
   ];
 
