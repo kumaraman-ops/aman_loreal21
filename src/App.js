@@ -7,6 +7,7 @@ import Chapter03Passions from './components/Chapter03Passions';
 import Chapter04BeautyEverywhere from './components/Chapter04BeautyEverywhere';
 import Chapter05MorningRoutine from './components/Chapter05MorningRoutine';
 import ContactFooter from './components/ContactFooter';
+import VideoPopup from './components/VideoPopup';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -56,6 +57,9 @@ function App() {
 
       {/* Contact & Editorial Footer */}
       <ContactFooter />
+
+      {/* Auto-launching Video Popup Modal */}
+      <VideoPopup />
     </div>
   );
 }
